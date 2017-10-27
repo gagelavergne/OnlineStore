@@ -13,6 +13,7 @@ var connection = mysql.createConnection({
 connection.connect(function(err){
 	if (err) throw err;
 	console.log("connection successful");
+	makeTable();
 })
 
 var makeTable = function(){

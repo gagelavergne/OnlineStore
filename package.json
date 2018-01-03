@@ -1,8 +1,8 @@
 {
-  "name": "bamazon",
+  "name": "bamazon_customer",
   "version": "1.0.0",
   "description": "",
-  "main": "bamazon.js",
+  "main": "bamazonCustomer.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/gagelavergne/bamazon#readme",
   "dependencies": {
+    "console.table": "^0.9.1",
     "inquirer": "^3.3.0",
     "mysql": "^2.15.0"
   }
